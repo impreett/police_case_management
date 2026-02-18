@@ -1,0 +1,25 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "date",
+      "email",
+      "reportText"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "date": {
+        "bsonType": "date"
+      },
+      "email": {
+        "bsonType": "string"
+      },
+      "reportText": {
+        "bsonType": "string"
+      }
+    }
+  }
+}

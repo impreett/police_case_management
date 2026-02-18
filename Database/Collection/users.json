@@ -1,0 +1,49 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "__v",
+      "city",
+      "contact",
+      "email",
+      "fullname",
+      "isAdmin",
+      "isApproved",
+      "password",
+      "police_id"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "__v": {
+        "bsonType": "int"
+      },
+      "city": {
+        "bsonType": "string"
+      },
+      "contact": {
+        "bsonType": "string"
+      },
+      "email": {
+        "bsonType": "string"
+      },
+      "fullname": {
+        "bsonType": "string"
+      },
+      "isAdmin": {
+        "bsonType": "bool"
+      },
+      "isApproved": {
+        "bsonType": "bool"
+      },
+      "password": {
+        "bsonType": "string"
+      },
+      "police_id": {
+        "bsonType": "string"
+      }
+    }
+  }
+}

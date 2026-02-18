@@ -1,0 +1,61 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": [
+      "_id",
+      "__v",
+      "case_date",
+      "case_description",
+      "case_handler",
+      "case_title",
+      "case_type",
+      "guilty_name",
+      "originalCaseId",
+      "requestedAt",
+      "status",
+      "suspects",
+      "victim"
+    ],
+    "properties": {
+      "_id": {
+        "bsonType": "objectId"
+      },
+      "__v": {
+        "bsonType": "int"
+      },
+      "case_date": {
+        "bsonType": "date"
+      },
+      "case_description": {
+        "bsonType": "string"
+      },
+      "case_handler": {
+        "bsonType": "string"
+      },
+      "case_title": {
+        "bsonType": "string"
+      },
+      "case_type": {
+        "bsonType": "string"
+      },
+      "guilty_name": {
+        "bsonType": "string"
+      },
+      "originalCaseId": {
+        "bsonType": "objectId"
+      },
+      "requestedAt": {
+        "bsonType": "date"
+      },
+      "status": {
+        "bsonType": "string"
+      },
+      "suspects": {
+        "bsonType": "string"
+      },
+      "victim": {
+        "bsonType": "string"
+      }
+    }
+  }
+}
